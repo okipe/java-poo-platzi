@@ -2,6 +2,7 @@ import static ui.UIMenu.*;
 
 public class Main {
     public static void main(String[] args) {
+        /*
         Doctor myDoctor = new Doctor("Anahí Salgado");
         myDoctor.name = "Alejandro Rodriguez";
         myDoctor.showName();
@@ -14,9 +15,12 @@ public class Main {
         insurance1.showNameInsurance();
         insurance1.nameInsurance = "Pacífico Seguros";
         insurance1.showNameInsurance();
+        */
 
-        showMenu();
-
+        // showMenu();
+        Doctor myDoctor = new Doctor("Leslye Suárez", "Psicología");
+        System.out.println(myDoctor.name);
+        System.out.println(myDoctor.speciality);
 
     }
 }
