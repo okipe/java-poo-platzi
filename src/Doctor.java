@@ -1,6 +1,7 @@
 public class Doctor {
     static int id = 0; // Autoincrement. Si no fuera static, la variable se reiniciaría, no sobreviviría.
     String name;
+    String email;
     String speciality;
 
     Doctor() {
